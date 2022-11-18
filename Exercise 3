@@ -1,0 +1,12 @@
+public class Main{
+  public static void main(String[] args){
+    float result;
+    result = suma(2,5,7);
+    
+    System.out.println(result);
+  }
+  
+  public static float suma(float a, float b, float c){
+    return a+b+c;
+  }
+}
