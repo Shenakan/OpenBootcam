@@ -1,0 +1,15 @@
+public class Coche{
+  int puertas;
+  
+  public Coche(){
+  }
+  
+  public void setPuertas(int puertas){
+    this.puertas += puertas;
+  }
+  
+  pubilc int getPuertas(){
+    return puertas;
+  }
+  
+}
